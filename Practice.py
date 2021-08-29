@@ -14,7 +14,7 @@ def main():
         students[id + i].update({SPORT: (grade - (2*i))})
         students[id + i].update({HISTORY: (grade - (3 * i))})
     print(students)
-
+    kdfjhdskfjdkfj
 
 if __name__ == "__main__":
     main()
