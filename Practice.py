@@ -1,6 +1,7 @@
 MATH = 'Math'
 PHYSICS = 'Physics'
 SPORT = 'Sport'
+HISTORY = 'History'
 
 def main():
     students = {}
@@ -11,6 +12,7 @@ def main():
         students[id+i].update({MATH: (grade+i)})
         students[id + i].update({PHYSICS: (grade - i)})
         students[id + i].update({SPORT: (grade - (2*i))})
+        students[id + i].update({HISTORY: (grade - (3 * i))})
     print(students)
 
 
